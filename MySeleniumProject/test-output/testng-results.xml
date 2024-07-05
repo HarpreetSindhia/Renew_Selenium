@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-04T09:34:56 IST" name="Suite" finished-at="2024-07-04T09:35:18 IST" duration-ms="21745">
+    <groups>
+      <group name="NewPurchase">
+        <method signature="SubmitCartTest.submitOrder(java.util.HashMap)[pri:0, instance:SeleniumProject.MySeleniumProject.Tests.SubmitCartTest@327514f]" name="submitOrder" class="SeleniumProject.MySeleniumProject.Tests.SubmitCartTest"/>
+      </group> <!-- NewPurchase -->
+    </groups>
+    <test started-at="2024-07-04T09:34:56 IST" name="SubmitCartTest" finished-at="2024-07-04T09:35:18 IST" duration-ms="21745">
+      <class name="SeleniumProject.MySeleniumProject.Tests.SubmitCartTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumProject.MySeleniumProject.Tests.SubmitCartTest@327514f]" started-at="2024-07-04T09:34:56 IST" name="launchApplication" finished-at="2024-07-04T09:35:01 IST" duration-ms="4841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumProject.MySeleniumProject.Tests.SubmitCartTest@327514f]" started-at="2024-07-04T09:35:01 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-04T09:35:08 IST" duration-ms="6692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=harry@Code5, product=ZARA COAT 3, email=harrysindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SeleniumProject.MySeleniumProject.Tests.SubmitCartTest@327514f]" started-at="2024-07-04T09:35:08 IST" name="closeDriver" finished-at="2024-07-04T09:35:08 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumProject.MySeleniumProject.Tests.SubmitCartTest@327514f]" started-at="2024-07-04T09:35:08 IST" name="launchApplication" finished-at="2024-07-04T09:35:09 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumProject.MySeleniumProject.Tests.SubmitCartTest@327514f]" started-at="2024-07-04T09:35:09 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-04T09:35:17 IST" duration-ms="8511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=harryCode@5, product=ADIDAS ORIGINAL, email=harrycoder@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SeleniumProject.MySeleniumProject.Tests.SubmitCartTest@327514f]" started-at="2024-07-04T09:35:17 IST" name="closeDriver" finished-at="2024-07-04T09:35:18 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- SeleniumProject.MySeleniumProject.Tests.SubmitCartTest -->
+    </test> <!-- SubmitCartTest -->
+  </suite> <!-- Suite -->
+</testng-results>
