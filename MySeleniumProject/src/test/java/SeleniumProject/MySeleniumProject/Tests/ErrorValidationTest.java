@@ -36,6 +36,7 @@ public class ErrorValidationTest extends BaseTest{
 			
 	}
 	
+	// Two Error Validation tests are created by us .
 	
 	@Test
 	public void productErrorValidation() throws IOException {
